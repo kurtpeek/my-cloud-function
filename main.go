@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	helloworld.HelloPubSub(context.Background(), helloworld.PubSubMessage{
+	helloworld.HelloPubSub2(context.Background(), helloworld.PubSubMessage{
 		Data: []byte("foobar"),
 	})
 }

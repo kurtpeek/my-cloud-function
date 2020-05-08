@@ -12,8 +12,8 @@ type PubSubMessage struct {
 	Data []byte `json:"data"`
 }
 
-// HelloPubSub consumes a Pub/Sub message.
-func HelloPubSub(ctx context.Context, m PubSubMessage) error {
+// HelloPubSub2 consumes a Pub/Sub message.
+func HelloPubSub2(ctx context.Context, m PubSubMessage) error {
 	name := string(m.Data)
 	if name == "" {
 		name = "World"
