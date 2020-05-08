@@ -3,6 +3,8 @@ package helloworld
 import (
 	"context"
 	"log"
+
+	"github.com/kurtpeek/my-private-repo/mypackage"
 )
 
 // PubSubMessage is the payload of a Pub/Sub event.
@@ -17,5 +19,6 @@ func HelloPubSub(ctx context.Context, m PubSubMessage) error {
 		name = "World"
 	}
 	log.Printf("Hello, %s!", name)
+	log.Println(mypackage.SayHello())
 	return nil
 }
