@@ -1,0 +1,2 @@
+# github.com/kurtpeek/my-private-repo v0.0.0-20200508055124-8eb94cb388b2
+github.com/kurtpeek/my-private-repo/mypackage
