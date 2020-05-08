@@ -1,4 +1,4 @@
-module github.com/kurtpeek/my-cloud-function
+module github.com/kurtpeek/my-cloud-function/helloworld
 
 go 1.12
 
